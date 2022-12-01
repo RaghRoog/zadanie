@@ -30,7 +30,16 @@ void trzecie(){
     printf("Twoje BMI wynosi: %.2f\n", BMI);
 }
 
-int main() {
+void czwarte(){
+    int wiek;
+    int mnoznik = 3.156 * pow(10, 7);
+    printf("Podaj swoj wiek:\n");
+    scanf("%d", &wiek);
+    long wiekWSekundach = wiek * mnoznik;
+    printf("Twoj wiek w sekundach to: %d\n", wiekWSekundach);
+}
 
+int main() {
+    getchar();
     return 0;
 }

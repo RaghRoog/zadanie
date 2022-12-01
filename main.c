@@ -10,6 +10,15 @@ void pierwsze(){
     printf("Liczba w formacie napisowym to: %c\n", liczba1);
 }
 
+void drugie(){
+    int kod;
+    printf("Podaj kod ASCII: ");
+    scanf("%d", &kod);
+    printf("Liczba %d to %c w ASCII\n", kod, kod);
+}
+
+
+
 int main() {
 
     return 0;
